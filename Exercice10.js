@@ -13,3 +13,7 @@ function sommeRecursive(n) {
         return n + sommeRecursive(n - 1); 
     }
 }
+let n = parseInt(prompt("Entrez une valeur pour n :"));
+alert("Somme (version boucle) = " + sommeIterative(n));
+alert("Somme (version récursive) = " + sommeRecursive(n));
+

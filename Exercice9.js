@@ -6,3 +6,4 @@ function factorielle(n) {
     }
 }
 alert(factorielle(5));  
+
